@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Norman_App.Connexion_Inscription1">
+    <ContentPage.Content>
+
+        <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill" Padding="20">
+
+            <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill">
+                <Label Text="Connexion/Inscription" FontAttributes="Bold" FontSize="25" TextColor="Black">
+                </Label>
+
+                <Picker x:Name="picker" Title="Pays" FontSize="15">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Cameroun</x:String>
+                            <x:String>France</x:String>
+                            <x:String>Nigéria</x:String>
+                            <x:String>Gabon</x:String>
+                            <x:String>Allemagne</x:String>
+                            <x:String>Chine</x:String>
+                            <x:String>Corée</x:String>
+                            <x:String>Tchad</x:String>
+                            <x:String>Belgique</x:String>
+                            <x:String>Canada</x:String>
+                            <x:String>Yemen</x:String>
+                            <x:String>Maroc</x:String>
+                            <x:String>Algérie</x:String>
+                            <x:String>Autriche</x:String>
+                            <x:String>Brésil</x:String>
+                            <x:String>Afghanistan</x:String>
+                            <x:String>Afrique du Sud</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+                
+                <Entry Placeholder="Numéro de téléphone" ClearButtonVisibility="WhileEditing" Keyboard="Telephone" 
+                       > 
+                </Entry>
+                <Label Text="Nous vous appellerons ou vous enverrons un SMS pour confirmer votre numéro. Des frais standards d'envoi de messages et déchange de données s'appliquent."
+                        Padding="5,20" FontSize="15" 
+                       >
+                </Label>
+
+                <Button Text="Continuer" FontSize="20" TextColor="White" BackgroundColor="LightGray" 
+                        TextTransform="None" CornerRadius="10" Padding="10" >
+                    
+                </Button>
+
+                <Label Text="OU" FontSize="15" HorizontalOptions="Center" TextColor="LightGray" Padding="20">
+                </Label>
+
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                <Button Text="Continuer avec l'adresse e-mail" BackgroundColor="White" BorderColor="Black" BorderWidth="1"
+                        TextColor="Black" CornerRadius="10" FontSize="20" TextTransform="None">
+                </Button>
+
+                <Button Text="Continuer avec Facebook" BackgroundColor="White" BorderColor="Black" BorderWidth="1"
+                        TextColor="Black" CornerRadius="10" FontSize="20" TextTransform="None">
+                </Button>
+
+                <Button Text="Continuer avec Google" BackgroundColor="White" BorderColor="Black" BorderWidth="1"
+                        TextColor="Black" CornerRadius="10" FontSize="20" TextTransform="None">
+                </Button>
+                
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

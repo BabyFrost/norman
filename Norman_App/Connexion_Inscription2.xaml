@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Norman_App.Connexion_Inscription2">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HorizontalOptions="Fill" VerticalOptions="Fill" Padding="20" Spacing="25">
+                <Label Text="Connexion/Inscription" FontAttributes="Bold" FontSize="25" TextColor="Black">
+                </Label>
+
+                <Entry Placeholder="E-mail" ClearButtonVisibility="WhileEditing" Keyboard="Email"
+                       >
+                </Entry>
+
+                <Button Text="Continuer" FontSize="20" TextColor="White" BackgroundColor="LightGray" 
+                        TextTransform="None" CornerRadius="10" Padding="10">
+
+                </Button>
+
+                <Label Text="OU" FontSize="15" HorizontalOptions="Center" TextColor="LightGray" Padding="5">
+                </Label>
+                
+
+            </StackLayout>
+
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                
+                
+                <Button Text="Continuer avec l'adresse e-mail" BackgroundColor="White" BorderColor="Black" BorderWidth="1"
+                        TextColor="Black" CornerRadius="10" FontSize="20" TextTransform="None">
+                </Button>
+
+                <Button Text="Continuer avec Facebook" BackgroundColor="White" BorderColor="Black" BorderWidth="1"
+                        TextColor="Black" CornerRadius="10" FontSize="20" TextTransform="None">
+                </Button>
+
+                <Button Text="Continuer avec Google" BackgroundColor="White" BorderColor="Black" BorderWidth="1"
+                        TextColor="Black" CornerRadius="10" FontSize="20" TextTransform="None">
+                </Button>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
