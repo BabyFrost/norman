@@ -10,7 +10,7 @@ namespace norman
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Connexion_Inscription1();
         }
 
         protected override void OnStart()
